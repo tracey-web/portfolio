@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    image: `${__dirname}/src/images/clouds.png`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
