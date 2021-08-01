@@ -51,7 +51,25 @@ export const projectsData = [
     title: 'mixr - Full-stack & Design',
     info: `React / Gatsby App that makes recipies from fridge ingredients.`,
     info2: `The app polls a refigerator API and a recipe API and provides a list of recipe options based on the ingredients available and the recipies it finds.`,
-    url: '',
+    url: 'https://www.traceylea.net/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'phomo12-API.png',
+    title: 'Photo Momento - Frontend & Design',
+    info: `Instagram clone and final software project as part of GA's Frontend Web Development 10 week course.`,
+    info2: `Written in vanilla JavaScript, HTML5 and CSS3. Photo Momento (PhoMo for short) is an Instagram clone that uses UnSplash data via Mocky (https://mocky.io) to display mock users (Unsplash Contibuters profiles) posts/media (their photos and videos) true to Instagram format. It was created to demonstrate skills that were achieved as part of the FEWD26 10 week course with GA. It has a simulated backend API that serves mock data as JSON, simulated like buttons and endless scroll images.`,
+    url: 'https://www.traceylea.net/',
+    repo: 'https://git.generalassemb.ly/tracey-hill/final-project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'tumblrThemeExample.png',
+    title: 'Tumblr TraceyLea9 - Frontend & Design',
+    info: `Tumblr Template - Social Media connected, displaying video and photos using api the from Instagram in a more appropriate format for the Tumblr platform.`,
+    info2: `This responsive design is a never-ending scrolling mosaic on a static full-picture background, using a transparent left menu which displays the profile picture and the name of the tumblr blog in the centre at the top.`,
+    url: 'https://traceylea9.tumblr.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -61,6 +79,24 @@ export const projectsData = [
     info: `Artist website and portfolio - Designs, artworks and media from Tracey's art and exhibition catalogue.`,
     info2: `Tracey has an extensive academic profile in fine arts. In 2017 she completed a Bachelor of Contemporary Arts with First-Class Honours, which resulted in her acceptance as a PhD Candidate (Creative Arts) which she undertook with the University of Tasmania. Key themes that can be seen in Tracey's work are: perception, actual/virtual place, landscape, digital engagement, voice and sanitisation. `,
     url: 'https://www.traceylea.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'GearTrain.png',
+    title: 'GearTrain - Frontend, Design, Ecommerce & Social Media',
+    info: `Ecommerce Business - Watch Business using Shopify, Oberlo and social media (Instagram and Facebook) marketing.`,
+    info2: `GearTrain is a Shopify site that uses Oberlo to handle drop-shipping addressing, inventory items and product management.`,
+    url: 'https://geartrain.co/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'MySurveyApp.png',
+    title: 'My Survey App - Frontend & Design',
+    info: `Survey web application that polls an AWS backend to recieve JSON responses.`,
+    info2: `React.JS Frontend. Graph.JS library for rendering the pie-charts. Material UI styling. Desiged and produces a wirefram that determined fonts, icons, colour schemes and layout.`,
+    url: 'https://www.traceylea.net/',
     repo: '', // if no repo, the button will not show up
   },
 ];
@@ -93,7 +129,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/tracey-web',
+      url: 'https://git.generalassemb.ly/tracey-hill',
     },
   ],
 };
