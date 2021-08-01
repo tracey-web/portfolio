@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I enjoy the abstraction of UI/UX design and the problem-solving required to make designs into websites and applications. My current project is the frontent implementation of a React Native App for charity start-up Change 4 Change.'}
+                    'I enjoy the abstraction of UI/UX design and the problem-solving required to make designs into websites and applications. My current project introducing a new skillset, is the frontend implementation of my first React Native App, using a design provided by the Founder via Figma, for charity start-up Change 4 Change.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
