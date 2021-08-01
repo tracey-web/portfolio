@@ -42,7 +42,7 @@ function App() {
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Helmet>
         <meta property="og:title" content="Tracey Hill - Developer" />
-        {!!image && <meta property="og:image" content={image} />}
+        <meta property="og:image" content={image} />
         <meta
           property="og:description"
           content="A software developer and educator with 10+ years experience in web technologies. Focusing on advancing my skills as a full-stack developer with the addition of UI and UX design skills."
