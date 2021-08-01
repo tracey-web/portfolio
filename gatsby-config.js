@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    image: '/src/images/clouds.png',
+    image: './src/images/clouds.png',
   },
   plugins: [
     `gatsby-plugin-sass`,
