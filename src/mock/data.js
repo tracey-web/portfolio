@@ -58,7 +58,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'phomo12-API.png',
     title: 'Photo Momento - Full-stack & Design',
-    info: `Instagram clone and final software project as part of GA's Software Engineering (SEIR48) - 12 week immersive course.`,
+    info: `Instagram clone and a major software projects as part of GA's Software Engineering (SEIR48) - 12 week immersive course.`,
     info2: `Written in Ruby on Rails, with PostgreSQL database, JavaScript, HTML5 and CSS3. Photo Momento (PhoMo for short) is an Instagram clone that uses UnSplash data via Mocky (https://mocky.io) to display mock users (Unsplash Contibuters profiles) posts/media (their photos and videos) true to Instagram format. It was created to demonstrate skills that were achieved as part of the FEWD26 10 week course with GA. It has a simulated backend API that serves mock data as JSON, simulated like buttons and endless scroll images.`,
     url: 'https://pho-mo.herokuapp.com/login',
     repo: 'https://github.com/tracey-web/pho-mo', // if no repo, the button will not show up
