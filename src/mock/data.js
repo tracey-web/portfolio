@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'http://bit.ly/3tCJDfS', // if no resume, the button will not show up
+  resume: 'https://bit.ly/304uOsn', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -57,11 +57,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'phomo12-API.png',
-    title: 'Photo Momento - Frontend & Design',
-    info: `Instagram clone and final software project as part of GA's Frontend Web Development 10 week course.`,
-    info2: `Written in vanilla JavaScript, HTML5 and CSS3. Photo Momento (PhoMo for short) is an Instagram clone that uses UnSplash data via Mocky (https://mocky.io) to display mock users (Unsplash Contibuters profiles) posts/media (their photos and videos) true to Instagram format. It was created to demonstrate skills that were achieved as part of the FEWD26 10 week course with GA. It has a simulated backend API that serves mock data as JSON, simulated like buttons and endless scroll images.`,
-    url: 'https://www.traceylea.net/',
-    repo: 'https://git.generalassemb.ly/tracey-hill/final-project', // if no repo, the button will not show up
+    title: 'Photo Momento - Full-stack & Design',
+    info: `Instagram clone and final software project as part of GA's Software Engineering (SEIR48) - 12 week immersive course.`,
+    info2: `Written in Ruby on Rails, with PostgreSQL database, JavaScript, HTML5 and CSS3. Photo Momento (PhoMo for short) is an Instagram clone that uses UnSplash data via Mocky (https://mocky.io) to display mock users (Unsplash Contibuters profiles) posts/media (their photos and videos) true to Instagram format. It was created to demonstrate skills that were achieved as part of the FEWD26 10 week course with GA. It has a simulated backend API that serves mock data as JSON, simulated like buttons and endless scroll images.`,
+    url: 'https://pho-mo.herokuapp.com/login',
+    repo: 'https://github.com/tracey-web/pho-mo', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -92,12 +92,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'MySurveyApp.png',
-    title: 'My Survey App - Frontend & Design',
-    info: `Survey web application that polls an AWS backend to recieve JSON responses.`,
-    info2: `React.JS Frontend. Graph.JS library for rendering the pie-charts. Material UI styling. Desiged and produces a wirefram that determined fonts, icons, colour schemes and layout.`,
-    url: 'https://www.traceylea.net/',
-    repo: '', // if no repo, the button will not show up
+    img: 'tic-tac-toe.png',
+    title: 'Tic Tac Toe - Frontend & Design',
+    info: `An arcade themed version of the traditional Tic Tac Toe (Naughts and Crosses) game.`,
+    info2: `This game was created using vanilla JavaScript, HTML and CSS. Hosted on GitHub's Pages.`,
+    url: 'https://tracey-web.github.io/tic-tac-toe/',
+    repo: 'https://github.com/tracey-web/tic-tac-toe', // if no repo, the button will not show up
   },
 ];
 
@@ -124,12 +124,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/tracey-hill-01152824/',
+      url: 'https://www.linkedin.com/in/tracey-l-hill/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://git.generalassemb.ly/tracey-hill',
+      url: 'https://github.com/tracey-web',
     },
   ],
 };
