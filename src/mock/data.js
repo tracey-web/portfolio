@@ -22,6 +22,7 @@ export const aboutData = {
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://bit.ly/304uOsn', // if no resume, the button will not show up
+  artPortfolio: 'https://traceylea.com/',
 };
 
 // PROJECTS DATA
