@@ -39,6 +39,15 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'markedit.png',
+    title: 'change4change - React Native Mobile App',
+    info: `The front-end has been developed using a React Native / TypeScript framework to integrate with a serverless node.js back-end`,
+    info2: `Change4Change's mission is to create a contemporary donor experience for young Australians. Linked to innovative and impactful charities. We partner with select charitable organisations who are leaders in their charitable areas, impactful and reflect our innovative approach to fundraising. Change 4 Change allows you to donate your spare change with each purchase you make, and so much more!`,
+    url: 'https://www.change4change.com.au/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'markedit.png',
     title: 'MarkedIt - Frontend & Design',
     info: `It is Markedit's mission is to simplify and streamline the assessment, marking and reporting process to save educators and teachers time. We are an Australian team working with qualified teachers to deliver an automated and Simplified Marking Service (SMS).`,
     info2: `Founded in August 2017 we aim to be the world leader in teaching tools for streamlining the student assessment, marking and reporting processes.`,
