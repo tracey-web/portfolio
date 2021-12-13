@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'tech-stack.png',
+    title: 'My Tech Stack',
+    info: ` I currently use VS Code as my primary editor and have evolved my preferred tech-stack with Ruby/Rails/PostgreSQL on the back-end and React/MUI on the front-end.`,
+    info2: `The other tools that are shown below the line are proficencies and tools that I regularly draw on to get produce my projects and get my work done. This is by no means an exhaustive list and I'm always happy to test and try new platforms, tools and technologies with the aim of potentially adding them to my toolkit or moving them into my preferred tech-stack.`,
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'markedit.png',
     title: 'MarkedIt - Frontend & Design',
     info: `It is Markedit's mission is to simplify and streamline the assessment, marking and reporting process to save educators and teachers time. We are an Australian team working with qualified teachers to deliver an automated and Simplified Marking Service (SMS).`,
@@ -48,11 +57,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'mixr.png',
-    title: 'mixr - Full-stack & Design',
-    info: `React / Gatsby App that makes recipies from fridge ingredients.`,
-    info2: `The app polls a refigerator API and a recipe API and provides a list of recipe options based on the ingredients available and the recipies it finds.`,
-    url: 'https://www.traceylea.net/',
+    img: 'swarm-saviour.png',
+    title: 'Swarm Saviour - Full-stack & Design',
+    info: `The technical development aim with this project was to build on what seems to have evolved as my preferred tech stack and proficiency. I really enjoyed the work done with Ruby/Rails/PostgreSQL so that to me was an obvious choice and my React/MUI understanding can always be honed so I went with that as well.`,
+    info2: ` I also wanted to be able to reuse as much of my previous code as possible since I wasn’t familiar with using Google Maps API or really familiar with MUI and I knew that working things out would take time. Most of the ruby/rails backend stuff is just modified from the JwT tutorials I used in the last project and classwork.The React/MUI stuff is kinda new, but I also think that by extending what I’d used before I managed to take the project further.`,
+    url: 'https://www.swarmsaviour.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
