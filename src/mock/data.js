@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'My Tech Stack',
     info: ` I currently use VS Code as my primary editor and have evolved my preferred tech-stack with Ruby/Rails/PostgreSQL on the back-end and React/MUI on the front-end.`,
     info2: `The other tools that are shown below the line are proficencies and tools that I regularly draw on to get produce my projects and get my work done. This is by no means an exhaustive list and I'm always happy to test and try new platforms, tools and technologies with the aim of potentially adding them to my toolkit or moving them into my preferred tech-stack.`,
-    url: '',
+    // url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -60,9 +60,8 @@ export const projectsData = [
     img: 'swarm-saviour.png',
     title: 'Swarm Saviour - Full-stack & Design',
     info: `The technical development aim with this project was to build on what seems to have evolved as my preferred tech stack and proficiency. I really enjoyed the work done with Ruby/Rails/PostgreSQL so that to me was an obvious choice and my React/MUI understanding can always be honed so I went with that as well.`,
-    info2: ` I also wanted to be able to reuse as much of my previous code as possible since I wasn’t familiar with using Google Maps API or really familiar with MUI and I knew that working things out would take time. Most of the ruby/rails backend stuff is just modified from the JwT tutorials I used in the last project and classwork.The React/MUI stuff is kinda new, but I also think that by extending what I’d used before I managed to take the project further.`,
     url: 'https://www.swarmsaviour.com/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/tracey-web/swarm-saviour-client', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
