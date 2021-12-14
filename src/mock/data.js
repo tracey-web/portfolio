@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'tech-stack.png',
     title: 'My Tech Stack',
     info: ` I currently use VS Code as my primary editor and have evolved my preferred tech-stack with Ruby/Rails/PostgreSQL on the back-end and React/MUI on the front-end.`,
-    info2: `The other tools that are shown below the line are proficencies and tools that I regularly draw on to get produce my projects and get my work done. This is by no means an exhaustive list and I'm always happy to test and try new platforms, tools and technologies with the aim of potentially adding them to my toolkit or moving them into my preferred tech-stack.`,
+    info2: `The other tools that are shown below the line are proficencies and tools that I regularly draw on to produce my projects and get my work done. This is by no means an exhaustive list and I'm always happy to test and try new platforms, tools and technologies with the aim of potentially adding them to my toolkit or moving them into my preferred tech-stack.`,
     url: '',
     repo: '', // if no repo, the button will not show up
   },
